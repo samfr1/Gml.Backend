@@ -20,6 +20,7 @@ services:
       - PROJECT_POLICYNAME=${PROJECT_POLICYNAME}
       - PROJECT_PATH=${PROJECT_PATH}
       - SERVICE_TEXTURE_ENDPOINT=${SERVICE_TEXTURE_ENDPOINT}
+      - SWAGGER_ENABLED=${SWAGGER_ENABLED}
       - TZ=Europe/Moscow
     user: "${UID}:${GID}"
     networks:
